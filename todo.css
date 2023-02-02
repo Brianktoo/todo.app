@@ -1,0 +1,138 @@
+
+  .todo {
+      padding-top: 0px;
+      padding-left: 0px;
+      padding-right: 10px;
+      text-align: center;
+      align-items: center;
+      /* background-color: rgb(142, 18, 142); */
+    }
+    .header {
+      color:red;
+      font-weight: bold;
+    }
+    .container {
+      
+       display: flex;
+       flex-direction: row; 
+        margin-inline: auto;
+       border-left: 3px solid rgb(70, 0, 128);
+       border-right: 3px solid rgb(55, 0, 128);
+    
+    }
+    .fill-form {
+      padding-left: 10px; 
+      padding-right: 30px; 
+      border-radius: 8px;
+      text-align: center;
+      align-items: center; 
+      border-color:red;
+      width: 800px;
+      
+  
+  }
+  .date-control{
+      height: 40px;
+      background-color: rgb(255, 255, 255);
+  }
+#textInput{
+width: 600px;
+}
+  
+  .tasks {
+     text-align: center; 
+     width: 250px;
+     text-decoration: none;
+  }
+  .task-list{
+      display: flex;
+      flex-direction: column;
+      padding-top: 0px;
+      background-color: aqua;
+      border: 5px solid black;
+      margin: 0px;
+  }
+  .tasks{
+    text-align: center;
+      align-items: center;
+      width: 400px;
+      margin-bottom: 400px;
+  }
+  .completed{
+      text-align: center;
+      align-items: center;
+      width: 600px;
+  }
+  .tasks-complete{
+      margin-bottom: 2px;
+      text-decoration: none;
+  } 
+   #tasks2{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    width: 30vw;
+  } 
+  .add-btn{
+    background-color:grey;
+    padding: 15px 30px;
+    font-weight: bold;
+    
+  }
+
+  .btn-delete{
+   
+    margin-top: 50px;
+    gap: 50px;
+    background-color: red;
+    margin-bottom: 30px;
+    color: black;
+  
+  }
+  .text-body input{
+    width: 250px;
+  }
+  .title-text{
+      font-size: 25px;
+      font-weight: bolder;
+      color: blue;
+    }
+    tasks-title{
+      color: blue;
+    }
+    .modal-title{
+      color:blue;
+      font-weight: bolder;
+      font-size: large;
+    }
+  
+  #tasks div .options {
+      justify-self: center;
+      display: flex;
+      gap: 20px;
+    }
+    .date-text{
+      font-size: large;;
+      margin-top: 20px;
+    }
+    @media (min-width: 1023px) {
+      .fill-form {
+        padding: 20px;
+        margin-right: 5px;
+        width: 25vw;
+        border-radius: 5px;
+        top: 50px;
+        background-color: aqua;
+      }
+      #descriptionArea {
+        width: 300px;
+        height: 100px;
+      }
+      #textInput{
+        width: 300px;
+        height: 30px;
+      }
+      #dataInput{
+        width: 100%;
+      }
+    }
